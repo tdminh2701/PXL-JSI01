@@ -1,0 +1,22 @@
+.img{
+    height: 80vh;
+}
+
+
+.searchBar{
+    width: 50vw;
+    border-radius: 99px;
+    background-color:rgba(0,0,0,.03);
+    border: none;
+}
+.header{
+    position: fixed;
+}
+.postImg{
+    width: auto;
+    height: 24vh;
+    border-radius: 8px;
+}
+.postInfo{
+    font-weight:600 ;
+}
