@@ -1,0 +1,11 @@
+body{
+    background-image: url(login-page-background.png);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    
+}
+.container{
+    position: relative;
+    top: 20vh;
+    right: 20vw;
+}

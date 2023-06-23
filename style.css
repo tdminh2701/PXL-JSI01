@@ -20,3 +20,6 @@
 .postInfo{
     font-weight:600 ;
 }
+.fstpost{
+     cursor: pointer;
+}
