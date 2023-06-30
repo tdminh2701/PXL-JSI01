@@ -1,11 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&family=Proza+Libre&display=swap');
 body{
     background-image: url(login-page-background.png);
     background-repeat:no-repeat ;
     background-size: cover;
+    font-family: 'Mukta', sans-serif;
+    background-color:rgb(195, 195, 71)
     
 }
 .container{
+    height: 60vh;
+    width: 35vw;
     position: relative;
     top: 20vh;
     right: 20vw;
+    font-weight: 600;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 3px 14px 3px rgba(185,129,129,0.74);
+-webkit-box-shadow: 1px 3px 14px 3px rgba(185,129,129,0.74);
+-moz-box-shadow: 1px 3px 14px 3px rgba(185,129,129,0.74); 
+}
+    
+
+h2{
+    text-align: center;
+    font-weight: bold;
 }

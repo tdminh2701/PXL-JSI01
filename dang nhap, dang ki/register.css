@@ -1,12 +1,42 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&family=Proza+Libre&display=swap');
 .body{
 height: 100vh;
 width: 100vw;
 display: flex;
-justify-content: flex-start; 
+justify-content: flex-start;
+margin: 0 0 0 0;
+background-color: orange;
+font-family: 'Mukta', sans-serif;
+font-weight: 600;
+font-size: larger;  
 }
-#signup-form{
-    width: 40vw;
-    margin-left: 0;
+.container{
+    width: 30vw;
+    margin: 13vh 0 0 8vw;
+    background-color: white;
+    height: fit-content;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 1px 3px 14px 3px rgba(185,129,129,0.74);
+-webkit-box-shadow: 1px 3px 14px 3px rgba(185,129,129,0.74);
+-moz-box-shadow: 1px 3px 14px 3px rgba(185,129,129,0.74); 
 }
+.button{
+    margin-bottom: 2vh;
+}
+.image{
+padding-top: 19vh;
+padding-left: 10vw;
+height: 40vw;
+width: 50vw;
+text-align: center;
+}
+h2{
+    text-align: center;
+}
+.image > img {
+width: 34vw;
+}
+
 
