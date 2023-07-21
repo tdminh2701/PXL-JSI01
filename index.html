@@ -22,7 +22,7 @@
 <body>
     <nav class="navbar navbar-expand-sm navbar-light bg-light header">
         <div class="container">
-            <a class="navbar-brand" href="#">VNPHONE</a>
+            <a class="navbar-brand" href="#">MCPHONE</a>
             <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
                 data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -34,16 +34,19 @@
                     <input class="searchBar" type="text" placeholder="What are you looking for ?">
                     <button class="btn btn-outline-success my-2 my-sm-0 ms-3 searchButton" type="submit">Search</button>
                 </form>
-                <button type="button" class="btn btn-primary position-relative ms-2">
+                <button type="button" class="btn btn-primary position-relative ms-2" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                         class="bi bi-basket-fill" viewBox="0 0 16 16">
                         <path
                             d="M5.071 1.243a.5.5 0 0 1 .858.514L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15.5a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H15v5a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V9H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 6h1.717L5.07 1.243zM3.5 10.5a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0v-3zm2.5 0a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0v-3zm2.5 0a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0v-3zm2.5 0a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0v-3zm2.5 0a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0v-3z" />
                     </svg>
                     <span
-                        class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
-                        <span class="visually-hidden">New alerts</span>
+                        class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle"
+                        id="countProduct">
+                        0
                     </span>
+                </button>
             </div>
             <a href="./dang nhap, dang ki/register.html">Register</a>
         </div>
@@ -57,23 +60,35 @@
     </div>
 
     <div class="container">
-        <div id="productList" class="productList row gy-2">
+        <h2 style="text-align: center;"><b>iPhone</b></h2>
+        <div id="iPhoneList" class="productList row gy-2">
+        </div>
 
+        <h2 style="text-align: center;"><b>MacBook</b></h2>
+        <div id="macBookList" class="productList row gy-2">
+        </div>
+
+        <h2 style="text-align: center;"><b>iPad</b></h2>
+        <div id="iPadList" class="productList row gy-2">
+        </div>
+
+
+        <div class="newPost">
+            <h2><b>New Post</b></h2>
         </div>
         <div class="posts">
-            <b>New Post</b>
             <div class="row">
-                <div class="col-4">
-                    <div class="fstpost">
-                        <img class="postImg"
-                            src="post-img/nen-mua-iphone-14-pro-max-like-new-hay-iphone-14-pro-social.png" alt="">
+                <div class="col-xl-4 col-sm-6">
+                    <div class="postCard">
+                        <img class="postImg" src="post-img/0018828_so-sanh-macbook-air-m2-13-inch-va-15-inch_1600.jpeg"
+                            alt="">
                         <div class="postInfo">
-                            Should we buy iPhone 14 Pro Max Like New or iPhone 14 Pro
+                            So sánh MacBook Air M2 13 inch và 15 inch: Thêm $200 để tăng 2 inch liệu có xứng đáng?
                         </div>
                     </div>
                 </div>
                 <div class="col-4">
-                    <div class="fstpost">
+                    <div class="postCard">
                         <img class="postImg"
                             src="post-img/cung-tim-hieu-cach-quay-video-4k-tren-iphone-don-gian-va-hieu-qua-voi-hnammobile-social.png">
                         <div class="postInfo">
@@ -82,36 +97,7 @@
                     </div>
                 </div>
                 <div class="col-4">
-                    <div class="fstpost">
-                        <img class="postImg"
-                            src="post-img/nen-mua-iphone-14-pro-max-like-new-hay-iphone-14-pro-social.png" alt="">
-                        <div class="postInfo">
-                            Should we buy iPhone 14 Pro Max Like New or iPhone 14 Pro
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-4">
-                    <div class="fstpost">
-                        <img class="postImg"
-                            src="post-img/nen-mua-iphone-14-pro-max-like-new-hay-iphone-14-pro-social.png" alt="">
-                        <div class="postInfo">
-                            Should we buy iPhone 14 Pro Max Like New or iPhone 14 Pro
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="fstpost">
-                        <img class="postImg"
-                            src="post-img/cung-tim-hieu-cach-quay-video-4k-tren-iphone-don-gian-va-hieu-qua-voi-hnammobile-social.png">
-                        <div class="postInfo">
-                            Should we buy iPhone 14 Pro Max Like New or iPhone 14 Pro
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="fstpost">
+                    <div class="postCard">
                         <img class="postImg"
                             src="post-img/nen-mua-iphone-14-pro-max-like-new-hay-iphone-14-pro-social.png" alt="">
                         <div class="postInfo">
@@ -122,7 +108,34 @@
             </div>
         </div>
     </div>
+    </div>
+    <!-- sidebar cart -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Giỏ hàng của bạn</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
 
+        <div class="offcanvas-body" id="cart-body">
+
+        </div>
+
+        <div class="offcanvas-footer">
+            <div class="total-money text-end">
+                <span class="fw-bold">Tổng tiền: </span>
+                <span id="total-money">0</span>
+            </div>
+            <button class="btn btn-primary w-100">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-wallet2 mx-2" viewBox="0 0 16 16">
+                    <path
+                        d="M12.136.326A1.5 1.5 0 0 1 14 1.78V3h.5A1.5 1.5 0 0 1 16 4.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 13.5v-9a1.5 1.5 0 0 1 1.432-1.499L12.136.326zM5.562 3H13V1.78a.5.5 0 0 0-.621-.484L5.562 3zM1.5 4a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z" />
+                </svg>
+                <span>Đặt hàng</span>
+            </button>
+        </div>
+    </div>
+    </div>
     <script src="main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">

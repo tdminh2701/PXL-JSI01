@@ -2,24 +2,36 @@
     height: 80vh;
 }
 
-
 .searchBar{
     width: 50vw;
     border-radius: 99px;
     background-color:rgba(0,0,0,.03);
     border: none;
 }
-.header{
-    position: fixed;
-}
 .postImg{
-    width: auto;
+    width: 20vw;
     height: 24vh;
     border-radius: 8px;
 }
 .postInfo{
     font-weight:600 ;
+    margin-top: 2vh;
 }
-.fstpost{
-     cursor: pointer;
+.postCard{
+    width: 20vw; 
+    cursor: pointer;
+}
+.atc-button{
+    opacity: 0;
+}
+.productItem:hover .atc-button{
+    opacity: 1;
+    transition: all 1s;
+}
+.removebtn{
+    
+    height: 5vh;
+    width: auto;
+    position: relative;
+    top: 0
 }

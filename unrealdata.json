@@ -1,73 +1,83 @@
 [
   {
     "name": "Apple iPhone 14 Pro Max 128GB VN/A Like New",
-    "image": "http://127.0.0.1:5500/card-img/apple-iphone-14-pro-max-256gb-01663051542.jpg",
+    "image": "https://trangthienlong.com.vn/wp-content/uploads/2022/10/iphone-14-pro-max-mau-tim-deep-purple-128gb-256gb-512gb-1tb-trang-thien-long-mobile-510x510.jpg",
     "sellPrice": 29000000,
     "orPrice": 30000000,
-    "desc": "iPhone chất lượng cao"
+    "desc": "iPhone chất lượng cao",
+    "id": 1
   },
 
   {
-    "name": "Apple Iphone 14 Pro Max 265GB VN/A",
-    "image": "http://127.0.0.1:5500/card-img/apple-iphone-14-pro-max-256gb-01663051542.jpg",
+    "name": "Apple Iphone 14 Pro Max 256GB VN/A",
+    "image": "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/t/_/t_m_13.png",
     "sellPrice": 31000000,
     "orPrice": 33000000,
-    "desc": "iPhone chất lượng cao hơn với dung lượng 265GB"
+    "desc": "iPhone chất lượng cao hơn với dung lượng 265GB",
+    "id": 2
   },
   {
     "name": "iPhone 14 Pro Max 512GB Chính hãng",
     "image": "https://product.hstatic.net/200000489025/product/iphone-13-pro-max-128gb-mau-bac-didongviet_5_1f5e49c8a38a48afab08ab2589793173_1024x1024.jpg",
     "sellPrice": 34000000,
     "orPrice": 37000000,
-    "desc": "iPhone chất lượng cao hơn với dung lượng 512GB"
+    "desc": "iPhone chất lượng cao hơn với dung lượng 512GB",
+    "id": 3
   },
   {
     "name": "iPhone 11 Pro 256GB Cũ",
     "image": "https://product.hstatic.net/200000489025/product/iphone-13-pro-max-128gb-mau-bac-didongviet_5_1f5e49c8a38a48afab08ab2589793173_1024x1024.jpg",
     "sellPrice": 34000000,
     "orPrice": 37000000,
-    "desc": "Ưu đãi iPhone 11 cũ giá rẻ"
+    "desc": "Ưu đãi iPhone 11 cũ giá rẻ",
+    "id": 4
   },
   {
     "name": "Tai nghe Bluetooth AirPods Pro MagSafe Charge Apple MLWK3",
     "image": "https://cdn.tgdd.vn/Products/Images/54/253802/bluetooth-airpods-pro-magsafe-charge-apple-mlwk3-0-1.jpg",
     "sellPrice": 4600000,
     "orPrice": 5000000,
-    "desc": "Tai nghe Bluetooth AirPods Pro MagSafe Charge Apple MLWK3 được chế tác với vẻ ngoài tinh giản, gam màu trắng trẻ trung, sáng đẹp, phối hợp tuyệt vời với mọi trang phục từ đời thường đến công sở, dự tiệc của bạn."
+    "desc": "Tai nghe Bluetooth AirPods Pro MagSafe Charge Apple MLWK3 được chế tác với vẻ ngoài tinh giản, gam màu trắng trẻ trung, sáng đẹp, phối hợp tuyệt vời với mọi trang phục từ đời thường đến công sở, dự tiệc của bạn.",
+    "id": 5
   },
   {
     "name": "Adapter Sạc Type C 20W dùng cho iPhone/iPad Apple MHJE3",
     "image": "https://cdn.tgdd.vn/Products/Images/9499/230315/adapter-sac-type-c-20w-cho-iphone-ipad-apple-mhje3-1-org.jpg",
     "sellPrice": 500000,
     "orPrice": 560000,
-    "desc": " Adapter Sạc 20W Apple là một Adapter mang lại trải nghiệm sạc ấn tượng cho người dùng."
+    "desc": " Adapter Sạc 20W Apple là một Adapter mang lại trải nghiệm sạc ấn tượng cho người dùng.",
+    "id": 6
   },
   {
     "name": "Máy tính bảng iPad Pro M1 12.9 inch WiFi Cellular 128GB (2021)",
     "image": "https://cdn.tgdd.vn/Products/Images/522/238649/Slider/ipad-pro-m1-129-inch-wifi-cellular-128gb-2021-240521-03505210.jpg",
     "sellPrice": 29000000,
     "orPrice": 34000000,
-    "desc": "iPad Pro M1 12.9 inch Wifi Cellular 128GB (2021) trang bị những tính năng ngày càng vượt trội và thời thượng."
+    "desc": "iPad Pro M1 12.9 inch Wifi Cellular 128GB (2021) trang bị những tính năng ngày càng vượt trội và thời thượng.",
+    "id": 7
   },
   {
-    "name": " Máy tính bảng iPad Pro M1 11 inch WiFi 2TB (2021)",
+    "name": " MacBook Air M2 2022 (8GB RAM | 256GB SSD)",
     "image": "https://cdn.tgdd.vn/Products/Images/522/269328/Slider/vi-vn-ipad-pro-m1-11-inch-wifi-2tb-2021-1.jpeg",
     "sellPrice": 44000000,
     "orPrice": 49000000,
-    "desc": "Máy tính bảng iPad Pro M1 11 inch WiFi 2TB (2021) được giới thiệu với 2 màu xám và bạc hiện đại, chất liệu nhôm nguyên khối sang trọng cùng thiết kế thanh lịch, tinh tế, phù hợp trong mọi không gian sử dụng."
+    "desc": "Máy tính bảng iPad Pro M1 11 inch WiFi 2TB (2021) được giới thiệu với 2 màu xám và bạc hiện đại, chất liệu nhôm nguyên khối sang trọng cùng thiết kế thanh lịch, tinh tế, phù hợp trong mọi không gian sử dụng.",
+    "id": 8
   },
   {
-    "name": "iPad Gen 10 10.9 inch 2022 Wifi 256GB I Chính hãng Apple Việt Nam",
-    "image": "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/i/p/ipad-2022-hero-silver-wifi-select_1.png",
-    "sellPrice": 44000000,
-    "orPrice": 49000000,
-    "desc": "Máy tính bảng iPad Pro M1 11 inch WiFi 2TB (2021) được giới thiệu với 2 màu xám và bạc hiện đại, chất liệu nhôm nguyên khối sang trọng cùng thiết kế thanh lịch, tinh tế, phù hợp trong mọi không gian sử dụng."
+    "name": "MacBook Air M1 2020 (8GB RAM | 256GB SSD)",
+    "image": "https://shopdunk.com/images/thumbs/0006177_space-gray_550.webp",
+    "sellPrice": 18590000,
+    "orPrice": 28990000,
+    "desc": "",
+    "id": 2
   },
   {
-    "name": "iPad Gen 10 10.9 inch 2022 Wifi 256GB I Chính hãng Apple Việt Nam",
-    "image": "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/g/r/group_118_3.png",
-    "sellPrice": 590000,
-    "orPrice": 690000,
-    "desc": "Cáp Type-C to Type-C Apple MLL82ZP 2m đến từ thương hiệu Apple Chính hãng nên bạn hoàn toàn có thể an tâm về chất lượng sản phẩm. Sở hữu thiết kế đơn giản có thể dễ dàng cuộn tròn lại để mang theo sử dụng."
+    "name": "iMacBook Pro 16 inch M2 Max (38 Core| 32GB| 1TB)",
+    "image": "https://shopdunk.com/images/thumbs/0011460_macbook-pro-16-inch-m2-max-38-core-32gb-1tb_550.jpeg",
+    "sellPrice": 81950000,
+    "orPrice": 94990000,
+    "desc": "",
+    "id": 1
   }
 ]
