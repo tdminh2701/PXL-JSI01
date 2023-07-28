@@ -65,19 +65,19 @@
     "id": 8
   },
   {
-    "name": "MacBook Air M1 2020 (8GB RAM | 256GB SSD)",
-    "image": "https://shopdunk.com/images/thumbs/0006177_space-gray_550.webp",
-    "sellPrice": 18590000,
-    "orPrice": 28990000,
+    "name": "iPad Gen 10 th 10.9 inch WiFi 64GB",
+    "image": "https://shopdunk.com/images/thumbs/0009754_ipad-gen-10th-109-inch-wi-fi-64gb_550.webp",
+    "sellPrice": 10790000,
+    "orPrice": 12990000,
     "desc": "",
-    "id": 2
+    "id": 10
   },
   {
-    "name": "iMacBook Pro 16 inch M2 Max (38 Core| 32GB| 1TB)",
-    "image": "https://shopdunk.com/images/thumbs/0011460_macbook-pro-16-inch-m2-max-38-core-32gb-1tb_550.jpeg",
-    "sellPrice": 81950000,
-    "orPrice": 94990000,
+    "name": "iPad gen 9 10.2 inch WiFi 64GB",
+    "image": "hhttps://shopdunk.com/images/thumbs/0006300_silver_550.webp",
+    "sellPrice": 6990000,
+    "orPrice": 9990000,
     "desc": "",
-    "id": 1
+    "id": 11
   }
 ]

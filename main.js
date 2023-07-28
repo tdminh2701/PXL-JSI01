@@ -18,15 +18,22 @@ const calcBill = (productPickedList) => {
     formatVNDCurrency(totalBill);
 };
 calcBill(productPickedList);
-const removeFromCart = (index) => {
-  console.log(index);
+
+const removeItem = (index) => {
+  // xoá sản phẩm từ index nhận vào của hàm
+  productPickedList.splice(index, 1);
+  // cập nhật local storage
+  localStorage.setItem("mycart", JSON.stringify(productPickedList));
+  renderCart(productPickedList);
+  calcBill(productPickedList);
 };
-const renderCart = (myCart) => {
+
+const renderCart = (mycart) => {
   // xu ly hien thi gio hang khi moi vao trang web
-  if (myCart.length > 0) {
+  if (mycart.length > 0) {
     // gio hang co san pham
     let htmlString = "";
-    myCart.map((cartItem, index) => {
+    mycart.map((cartItem, index) => {
       htmlString += `
         <div class="cart-item d-flex my-3">
           <img
@@ -44,7 +51,7 @@ const renderCart = (myCart) => {
           <small class="text-decoration-line-through">
           ${formatVNDCurrency(cartItem.orPrice)}
           </small>
-          <button class="removebtn btn btn-warning" onclick="removeFromCart(${index})">Xoá</button>
+          <button class="removebtn btn btn-warning" onclick="removeItem(${index})">Xoá</button>
           </div>
         </div>
       `;
@@ -77,7 +84,7 @@ const addToCart = (id) => {
 
 const idsIphone = [1, 2, 3, 4];
 const idsMacbook = [5, 6, 7, 8];
-
+const idsiPad = [9, 10, 11, 12];
 const renderProductList = (productValues, idsFilter, idDom) => {
   const iphoneList = productValues.filter((product) =>
     idsFilter.includes(product.id)
@@ -115,4 +122,5 @@ fetch("https://649ed155245f077f3e9cf127.mockapi.io/products")
     productList = [...data];
     renderProductList(data, idsIphone, "iPhoneList");
     renderProductList(data, idsMacbook, "macBookList");
+    renderProductList(data, idsiPad, "iPadList");
   });
