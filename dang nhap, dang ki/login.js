@@ -22,8 +22,8 @@ document.getElementById("signup-form").addEventListener(`submit`, function (e) {
             const user = item.data();
 
             localStorage.setItem("address", JSON.stringify(user.address));
-            window.location.href = "../index.html";
           });
+          window.location.href = "../index.html";
         });
     })
     .catch(function (error) {

@@ -1,5 +1,4 @@
 let productList = [];
-
 let productPickedList = JSON.parse(localStorage.getItem("mycart")) || [];
 document.getElementById("countProduct").innerHTML = productPickedList.length;
 
@@ -30,7 +29,8 @@ const removeItem = (index) => {
 
 const order = () => {
   const address = localStorage.getItem("address");
-  if (productPickedList.length > 0) {
+  const newData = JSON.parse(localStorage.getItem("mycart")) || [];
+  if (newData.length > 0) {
     localStorage.removeItem("mycart");
     renderCart([]);
     calcBill([]);
@@ -38,7 +38,7 @@ const order = () => {
       title: "Success!",
       text: "Đặt hàng thành công",
       html: `
-      Đơn hàng của bạn sẽ được giao tới địa chỉ ${address}
+      Đơn hàng của bạn sẽ được giao tới địa chỉ của bạn
       `,
       icon: "success",
       showConfirmButton: false,
