@@ -28,6 +28,29 @@ const removeItem = (index) => {
   calcBill(productPickedList);
 };
 
+const order = () => {
+  const address = localStorage.getItem("address");
+  if (productPickedList.length > 0) {
+    localStorage.removeItem("mycart");
+    renderCart([]);
+    calcBill([]);
+    Swal.fire({
+      title: "Success!",
+      text: "Đặt hàng thành công",
+      html: `
+      Đơn hàng của bạn sẽ được giao tới địa chỉ ${address}
+      `,
+      icon: "success",
+      showConfirmButton: false,
+    });
+  } else {
+    Swal.fire({
+      title: "Lỗi",
+      text: "Giỏ hàng của bạn trống",
+    });
+  }
+};
+
 const renderCart = (mycart) => {
   // xu ly hien thi gio hang khi moi vao trang web
   if (mycart.length > 0) {
