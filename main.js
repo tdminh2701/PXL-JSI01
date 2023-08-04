@@ -31,6 +31,7 @@ const order = () => {
   const address = localStorage.getItem("address");
   const newData = JSON.parse(localStorage.getItem("mycart")) || [];
   if (newData.length > 0) {
+    document.getElementById("countProduct").innerHTML = 0;
     localStorage.removeItem("mycart");
     renderCart([]);
     calcBill([]);

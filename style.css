@@ -35,3 +35,10 @@
     position: relative;
     top: 0
 }
+
+.footer{
+    margin-top: 10vh;
+    background-color: rgb(36, 31, 31);
+    height: 50vh;
+    width: 100%;
+}

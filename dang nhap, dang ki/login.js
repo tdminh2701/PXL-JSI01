@@ -35,3 +35,6 @@ document.getElementById("signup-form").addEventListener(`submit`, function (e) {
       console.log(error);
     });
 });
+function logOut() {
+  localStorage.setItem("loggedIn", "something");
+}
