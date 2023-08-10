@@ -20,12 +20,13 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm navbar-light bg-light header">
-        <div class="container">
-            <a class="navbar-brand" href="#">MCPHONE</a>
 
-            <div class="collapse navbar-collapse header-left" id="header-left">
-
+    <div class="containerOfH">
+        <div class="header w-100" id="header-left">
+            <h3 class="title ms-4">
+                MCPHONE
+            </h3>
+            <div class="leftSide">
                 <button type="button" class="btn btn-primary position-relative ms-2" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -40,9 +41,13 @@
                     </span>
                 </button>
             </div>
-            <a id="logOut" href="./dang nhap, dang ki/register.html">Register</a>
+            <div id="logOut">
+                <a class="ms-5" id="logOut" href="./dang nhap, dang ki/register.html">Register</a>
+            </div>
+
         </div>
-    </nav>
+    </div>
+
 
     <div class="slider">
         <div><img class="img w-100" src="slider-img/iphone-14-series-230301032247.png" alt="" srcset=""></div>
@@ -64,6 +69,9 @@
         <div id="iPadList" class="productList row gy-2">
         </div>
 
+        <h2 style="text-align: center;"><b>Watch</b></h2>
+        <div id="watchList" class="productList row gy-2">
+        </div>
 
         <div class="newPost">
             <h2><b>New Post</b></h2>

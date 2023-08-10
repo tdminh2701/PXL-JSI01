@@ -109,6 +109,7 @@ const addToCart = (id) => {
 const idsIphone = [1, 2, 3, 4];
 const idsMacbook = [5, 6, 7, 8];
 const idsiPad = [9, 10, 11, 12];
+const idsWatch = [13, 14, 15, 16];
 const renderProductList = (productValues, idsFilter, idDom) => {
   const iphoneList = productValues.filter((product) =>
     idsFilter.includes(product.id)
@@ -147,4 +148,13 @@ fetch("https://649ed155245f077f3e9cf127.mockapi.io/products")
     renderProductList(data, idsIphone, "iPhoneList");
     renderProductList(data, idsMacbook, "macBookList");
     renderProductList(data, idsiPad, "iPadList");
+    renderProductList(data, idsWatch, "watchList");
   });
+let loggedIn = [];
+loggedIn.innerHTML = localStorage.getItem("loggedIn");
+console.log(loggedIn);
+if ((loggedIn.innerHTML = localStorage.getItem("loggedIn"))) {
+  document.getElementById("logOut").innerHTML = `
+  <a class="ms-5" id="logOut" href="./dang nhap, dang ki/login.html">Đăng xuất</a>
+  `;
+}
